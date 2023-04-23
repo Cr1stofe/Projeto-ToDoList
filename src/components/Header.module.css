@@ -1,0 +1,64 @@
+.header {
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    gap: 0.6875rem;
+    padding: 4.5rem 0;
+}
+
+.header img {
+    margin-top: 0.625rem;
+    height: 2.25rem;
+    width: 1.375rem;
+}
+
+.textLogo {
+    color: var(--blue-300);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.textLogo > :last-child {
+    color: var(--purple-500);
+}
+
+.taskForm {
+    max-width: 46rem;
+    margin: -1.75rem auto 2rem;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.taskForm textarea {
+    background: var(--gray-500);
+    resize: none;
+    border-color: var(--gray-700);
+    border-radius: 8px;
+    height: 3.375rem;
+    padding: 1rem;
+    color: var(--gray-100);
+}
+
+.taskForm button[type=submit] {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: var(--white);
+    background: var(--blue-500);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 3.25rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.taskForm button[type=submit]:hover {
+    background: var(--blue-300);
+}

@@ -1,0 +1,8 @@
+.wrapper {
+    max-width: 46rem;
+    margin: auto;
+}
+
+.wrapper > div {
+    margin-top: 4rem;
+}

@@ -1,0 +1,77 @@
+.tasks {
+    width: 100%;
+    max-width: 46rem;
+    margin: 0 auto;
+    margin-top: 5.625rem;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.createdTasks {
+    font-weight: bold;
+    color: var(--blue-300);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.completedTasks {
+    font-weight: bold;
+    color: var(--purple-300);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.createdTasks > span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 3px 9px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+.completedTasks > span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 3px 9px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+.tasksListEmpty{
+    display: flex;
+    flex-direction: column;
+    height: 15.25rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-300);
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.tasksListEmpty svg {
+    opacity: 0.5;
+}
+
+.tasksListEmpty p {
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
